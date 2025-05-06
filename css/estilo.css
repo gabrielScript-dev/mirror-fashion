@@ -47,6 +47,14 @@ header {
     color: #036;
 }
 
+.menu-opcoes a:hover {
+    color: #007DC6;
+}
+
+.menu-opcoes a:active {
+    color: #867DC6;
+}
+
 .busca,
 .menu-departamentos {
     background-color: #DCDCDC;
@@ -88,9 +96,26 @@ header {
     padding: 5px 10px;
 }
 
+.menu-departamentos ul ul li {
+    color: #DCDCDC;
+}
+
+.menu-departamentos li li a:before {
+    content: '-	';
+}
+
+
 .menu-departamentos a {
     color: #333;
     text-decoration: none;
+}
+
+.menu-departamentos li ul {
+    display: none;
+}
+
+.menu-departamentos li:hover ul {
+    display: block;
 }
 
 .painel {
